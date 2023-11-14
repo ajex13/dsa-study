@@ -13,7 +13,7 @@ function findMaxThree(arr) {
     let first, second, third;
     first = second = third = Number.MIN_SAFE_INTEGER; 
 
-    for (let val of arr) {
+    for (const val of arr) {
         if (val > first) {
             third = second; 
             second = first;
