@@ -4,9 +4,9 @@ function findMaxThree(arr) {
     // loop over array 
     // if val > first 
     // cascade  second's value to third, first's value to second and set val to first
-    // else if val > second and val != first 
+    // else if val > second and val != first (req to check for duplicates)
     // cascade second's value to third and set val to second
-    // else if val > third and val != second 
+    // else if val > third and val != second (req to check for duplicates)
     // set val to third 
     // print vals
 
