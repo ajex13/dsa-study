@@ -1,11 +1,22 @@
 function moveZeroesToEnd(arr) {
-    let r = 0;
+    // declare 2 variables l & r, initialize to 0 
 
-    for (let i = 0; i < arr.length; i++) {
-        if (arr[i] !== 0) {
-            [arr[i], arr[r]] = [arr[r], arr[i]];
-            r++;
-        } 
+    // loop over the array with r
+
+    // l should keep track of next zero to be swapped 
+
+    // while looping over the array if elemet at r is non zero swap it with element at l
+    // increment l by 1 in this conditional
+    let l, r;
+    l = r = 0;
+
+    while (r < arr.length) {
+        if (arr[r] !== 0) {
+            [arr[l], arr[r]] = [arr[r], arr[l]];
+            l++;
+        }
+
+        r++;
     }
 
     return arr;
