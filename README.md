@@ -70,3 +70,38 @@ parseInt(l + (r - l)/2) // 4
 
 ```
 ---
+- Map
+```js
+const map = new Map();
+
+let myKey = "dog";
+// check
+map.has(myKey);
+
+// get value
+map.get(myKey);
+
+// set value
+map.set(myKey, 1);
+
+// create a frequency map
+
+const count = new Map();
+
+const nums = [1,1,2,3,1,4,1];
+
+for (const num of nums) {
+  if (count.has(num)) {
+    count.set(num, count.get(num) + 1);
+  } else {
+    count.set(num, 1);
+  }
+}
+
+// shorter way 
+for (const num of nums) {
+  count.set(num, (count.get(num) || 0) + 1);
+}
+
+
+```
