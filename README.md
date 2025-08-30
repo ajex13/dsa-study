@@ -105,3 +105,21 @@ for (const num of nums) {
 
 
 ```
+---
+Create Alphabel frequency array:
+
+```js
+
+const myString = "racecar";
+const freq = new Array(26).fill(0);
+
+for (const c of myString) {
+  freq[c.charCodeAt(0) - 'a'.charCodeAt(0)]++; // increment
+  freq[c.charCodeAt(0) - 'a'.charCodeAt(0)]--; // or decrement
+}
+
+
+```
+
+
+
