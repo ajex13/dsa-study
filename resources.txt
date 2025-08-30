@@ -1,1 +1,20 @@
 https://github.com/tajpouria/algorithms-and-data-structures-cheat-sheet
+
+Revise Imp questions:
+1) Arrays & Hashing 
+- Contains Duplicates
+- Valid Anagram
+- Two Sum (Unsorted)
+- Group Anagrams
+- Top K Frequent Elements 
+- Longest Consecutive Sequence
+
+2)Two Pointer
+- Valid Palindrome 
+- Two Sum II Input Array Is Sorted 
+- 3Sum  
+- Container With Most Water
+
+3) Sliding Window
+- substring anagrams
+- Longest Substring Without Repeating Characters
